@@ -20,6 +20,11 @@ let isValidPassword = function(password){
     }
 }
 
+//or 
+/*let isValidPassword = function(password){
+    return password.length > 8 && !password.includes('password');
+}
+*/
 console.log(isValidPassword('hbfbh3'))
 console.log(isValidPassword('afh38983enedwiu'))
 console.log(isValidPassword('bfhb3wir7password'))
