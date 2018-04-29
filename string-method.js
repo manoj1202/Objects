@@ -22,4 +22,4 @@ let isValidPassword = function(password){
 
 console.log(isValidPassword('hbfbh3'))
 console.log(isValidPassword('afh38983enedwiu'))
-console.log(isValidPassword('bfhb3wir7Password'))
+console.log(isValidPassword('bfhb3wir7password'))
