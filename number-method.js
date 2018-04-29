@@ -24,3 +24,5 @@ let makeGuess = function(num1){
 }
 
 console.log(makeGuess(1));
+console.log(makeGuess(3));
+console.log(makeGuess(4));
