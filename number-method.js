@@ -8,14 +8,14 @@ console.log(Math.floor(num));
 // rondom number generating
 let min = 0;
 let max =  200;
-let random = Math.floor(Math.random()*(max -min) + min);
+let random = Math.floor(Math.random()*(max -min)) + min;
 console.log(random);
 
 //challenge
 let makeGuess = function(num1){
     let min = 1;
     let max = 5;
-    let random = Math.floor(Math.random()*(max-min+1));
+    let random = Math.floor(Math.random()*(max-min+1)) + min;
     if(num1 === random){
         return true;
     } else {
