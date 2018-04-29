@@ -1,4 +1,6 @@
 // challenge 
-let name = " steve "
+let name = ' steve '
 
-console.log(name.lenght);
+console.log(name.length);
+
+console.log(name.toUpperCase());
