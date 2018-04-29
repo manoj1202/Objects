@@ -12,7 +12,7 @@ let random = Math.floor(Math.random()*(max -min) + min);
 console.log(random);
 
 //challenge
-let makeGuess = functoion(num1){
+let makeGuess = function(num1){
     let min = 1;
     let max = 5;
     let random = Math.floor(Math.random()*(max-min+1));
