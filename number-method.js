@@ -16,4 +16,11 @@ let makeGuess = functoion(num1){
     let min = 1;
     let max = 5;
     let random = Math.floor(Math.random()*(max-min+1));
+    if(num1 === random){
+        return trur;
+    } else {
+        return false;
+    }
 }
+
+console.log(makeGuess(1));
